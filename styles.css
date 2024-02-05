@@ -1,11 +1,32 @@
-img.small {
-  width: 35px;
-  height: 35px;
+header {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
 }
 
-div.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
+.logo {
+  position: relative;
+  top: 5px;
+  left: 80px;
+}
+
+.grover {
+  display: block;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 350px;
+}
+
+.box a {
+  padding-left: 30px;
+}
+
+.type {
 }
